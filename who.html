@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+               <!-- header start  -->
+               <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img
+                        class="logo"
+                        src="https://www.ntec.co.th/wp-content/uploads/2022/04/NTEC-logo-main.png"
+                        alt=""
+                      />
+                    </a>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link"
+                            aria-current="page"
+                            href="lcm.html"
+                            >LCM</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">NTEC</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="who.html">Who We Are</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="services.html"
+                            >Services</a
+                          >
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Projects
+                          </a>
+                          <ul
+                            class="dropdown-menu"
+                            aria-labelledby="navbarDropdown"
+                          >
+                            <li>
+                              <a class="dropdown-item" href="refrence.html">Project Reference</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="hand.html"
+                                >Projects On Hand</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="carrier.html">Carrers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <!-- header end  -->
+            </div>
+          </div>
+        </div>
+        <!-- what we do start  -->
+        <div class="col-12 bg-dark py-5 text-white">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 col-lg-11 align-items-stretch justify-content-between d-flex flex-wrap"
+              >
+                <div class="col-12 text-center mb-4">
+                  <h2 class="fw-bolder text-success text-uppercase">
+                    What We Do
+                  </h2>
+                </div>
+                <div class="col-12 col-lg-6 px-0 px-md-4 px-lg-0 pe-0 mb-2 pe-lg-5">
+                  <img
+                    class="w-100 rounded"
+                    src="https://www.ntec.co.th/wp-content/uploads/2022/03/architecture-gfc8851b07_1920-800x400.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 col-lg-6 px-0 mb-2 px-md-4 py-2">
+                  <p class="ti14">
+                    NEW TECHNOLOGY ENGINEERING CONSTRUCTION CO., LTD. (NTEC) was
+                    established in 1994 in which the prime objective of the
+                    company is to provide our clients with comprehensive and
+                    professional standard of services in construction field.
+                  </p>
+                  <p class="ti14">
+                    The professional pride and service level of our company are
+                    our most effective and competitive tools.
+                  </p>
+                  <a href="" class="btn btn-success py-3 px-3 px-md-4 px-lg-5"
+                    ><i class="fa-solid fa-download"></i> &nbsp; Download NTEC
+                    Company Profile</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- what we do end  -->
+        <!-- scope and about start  -->
+        <div class="col-12 bg-white py-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 col-lg-11 align-items-stretch justify-content-between d-flex flex-wrap"
+              >
+                <div class="col-12 col-md-6">
+                  <div class="col-12 mb-4">
+                    <h2 class="fw-bolder text-success">Scope of Services</h2>
+                  </div>
+                  <div class="card shadow shadow-md col-12 col-md-11">
+                    <img
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/4152007-800x400.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body p-4">
+                      <h6 class="mb-3">
+                        <i class="fa-solid text-success fa-building"></i> &nbsp;
+                        Condominium, Dormitory, Office Building
+                      </h6>
+                      <h6 class="mb-3">
+                        <i class="fa-solid text-success fa-layer-group"></i>
+                        &nbsp; Substructure Work
+                      </h6>
+                      <h6>
+                        <i class="fa-solid text-success fa-warehouse"></i>
+                        &nbsp; Factory, Warehouse
+                      </h6>
+                      <h6>
+                        <i class="fa-solid text-success fa-memory"></i>
+                        &nbsp; Retaining Wall
+                      </h6>
+                      <h6>
+                        <i class="fa-solid text-success fa-road"></i>
+                        &nbsp; Civil Work, Bridge, Road, Drainage Work
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="col-12 mb-4">
+                    <h2 class="fw-bolder text-success">About of The Company</h2>
+                  </div>
+                  <div class="card col-12 shadow shadow-md col-md-11">
+                    <img
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/937121-800x400.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body p-4">
+                      <h6 class="mb-3 fw-bold text-success">
+                        NEW TECHNOLOGY ENGINEERING CONSTRUCTION CO., LTD.
+                      </h6>
+                      <p class="mb-1"><b>Establishment:</b> &nbsp; 1994</p>
+                      <p class="mb-2">
+                        <b>Address: </b> &nbsp; 233/105/1 Srinakarin Road, Bang
+                        Mueng, Mueang Samut Prakarn, Samut Prakarn, Thailand.
+                      </p>
+                      <h6 class="mb-2">
+                        <i class="fa-solid text-success fa-phone"></i> &nbsp;
+                        02-019-8423
+                      </h6>
+                      <h6 class="mb-2">
+                        <i class="fa-solid text-success fa-fax"></i> &nbsp;
+                        02-013-9665
+                      </h6>
+                      <h6 class="mb-2">
+                        <i
+                          class="fa-brands text-success fa-internet-explorer"
+                        ></i>
+                        &nbsp; www.ntec.co.th
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- scope and about end  -->
+        <!-- certificate start  -->
+        <div class="col-12 bg-white py-5 border">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-11">
+                <div class="col-12 text-center mb-5">
+                  <h1 class="fw-bolder text-success">Certificate</h1>
+                </div>
+                <div
+                  class="col-12 d-flex flex-wrap justify-content-center align-items-stretch"
+                >
+                  <div class="col-12 mb-2 col-md-6 mb-2">
+                    <div
+                      class="border h-100 border-success me-0 me-md-2 p-3 p-lg-5 shadow"
+                    >
+                      <h4 class="text-success fw-bold">ISO 9001:2015</h4>
+                      <p class="mb-2">Scope of supply</p>
+                      <p class="mb-2">
+                        The Provision of building construction.
+                      </p>
+                      <p class="mb-2">
+                        <b>Original Approval Date : </b> &nbsp; 24 May 2017
+                      </p>
+                      <p class="mb-2">
+                        <b>Certificate Number: </b> &nbsp; TH17/10193,
+                        TH17/10194
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 ps-0 ps-md-2 mb-2">
+                    <img
+                      class="border w-100 border-success h-100 shadow"
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/04/8-07-2564-Logo-ISO-9001-2015-REV3-1024x420.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="col-12 col-md-6 pe-0 pe-md-2 mt-4">
+                    <img
+                      class="w-100 border shadow h-100"
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/Certificate-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-12 col-md-6 ps-0 ps-md-2 mt-4">
+                    <img
+                      class="w-100 border shadow"
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/Certificate.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- certificate end  -->
+        <!-- Financial Support start  -->
+        <div class="col-12 bg-success py-5 text-white">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 px-0 px-md-2 col-lg-11 align-items-stretch justify-content-center d-flex flex-wrap"
+              >
+                <div class="col-12 text-center mb-4">
+                  <h2 class="fw-bolder">Financial Support</h2>
+                </div>
+                <div class="px-2 px-lg-2 col-12 col-md-6 mb-3 col-lg-4">
+                  <div class="card h-100 bg-white shadow text-dark">
+                    <img
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/UOB_Logo400x113-300x85.png"
+                      class="card-img-top p-3"
+                      alt="..."
+                    />
+                    <h5
+                      style="font-size: 19px"
+                      class="text-center mt-3 px-2 px-md-0 mb-0 fw-bold text-primary"
+                    >
+                      United Overseas Bank (Thai) PCL.
+                    </h5>
+
+                    <div class="card-body px-3 px-md-4 px-lg-5">
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-building"></i> &nbsp;
+                        690 Sukhumvit Road, Khet Klongtoey, Bangkok 10110
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-phone"></i> &nbsp;
+                        0-2620-2000
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-fax"></i>
+                        &nbsp; 0-2744-3170
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-2 px-lg-2 col-12 col-md-6 mb-3 col-lg-4">
+                  <div class="card bg-white shadow text-dark">
+                    <img
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/KBANK_Logo400x113-300x85.png"
+                      class="card-img-top py-3 px-3 px-md-4"
+                      alt="..."
+                    />
+                    <h5
+                      style="font-size: 19px"
+                      class="text-center mt-3 mb-0 fw-bold text-primary"
+                    >
+                      Kasikornbank PCL.
+                    </h5>
+
+                    <div class="card-body px-3 px-md-4 px-lg-5">
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-building"></i> &nbsp;
+                        400/22 Phahon Yothin Road, Sam Sen Nai District, Phaya
+                        Thai, Bangkok 10400
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-phone"></i> &nbsp;
+                        0-2470-2896
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-fax"></i>
+                        &nbsp; 0-2470-2948
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-2 px-lg-2 col-12 col-md-6 mb-3 col-lg-4">
+                  <div class="card h-100 bg-white shadow text-dark">
+                    <img
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/03/BBL_Logo400x113-300x85.png"
+                      class="card-img-top py-3 px-3 px-md-4"
+                      alt="..."
+                    />
+                    <h5
+                      style="font-size: 19px"
+                      class="text-center mt-3 mb-0 fw-bold text-primary"
+                    >
+                      Bangkok Bank PCL.
+                    </h5>
+
+                    <div class="card-body px-3 px-md-4 px-lg-5">
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-building"></i> &nbsp;
+                        947/2 Moo.12 Bangna Complex Building, Bangna-Trad Road.
+                        Km.3, Bangna, Bangkok 10260
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-phone"></i> &nbsp;
+                        0-2361-8444-8
+                      </p>
+                      <p class="mb-2">
+                        <i class="fa-solid text-success fa-fax"></i>
+                        &nbsp; 0-2744-3170
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Financial Support end  -->
+        <!-- Board Of Director start  -->
+        <div class="col-12 bg-white py-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 col-lg-11 align-items-stretch justify-content-between d-flex flex-wrap"
+              >
+                <div class="col-12 text-center">
+                  <h2 class="fw-bolder mb-4">Borad Of Director</h2>
+                </div>
+                <div class="col-12 text-center border py-4">
+                  <h4 class="fw-bold text-success">
+                    Managing director Curriculum Vitae
+                  </h4>
+                  <h4 class="fw-bold text-success">
+                    Mr. Tossaporn Sree-iam วย. 1591
+                  </h4>
+                </div>
+                <div class="col-12 col-md-6 border p-2 px-md-5 py-md-4">
+                  <h5>Personal detail</h5>
+
+                  <p class="mb-2">Year of Birth : &nbsp; 1964</p>
+                  <p class="mb-2">Nationality &nbsp; : &nbsp; Thai</p>
+                </div>
+                <div class="col-12 col-md-6 border p-2 px-md-5 py-md-4">
+                  <h5>Education background</h5>
+
+                  <p class="mb-2">
+                    1985 &nbsp; : &nbsp; B.Eng. (Civil) Prince of Songkla
+                    University
+                  </p>
+                  <p class="mb-2">
+                    1988 &nbsp; : &nbsp; M.Eng. (Geotechnique) Chulalongkorn
+                    University
+                  </p>
+                </div>
+                <div class="col-12 border p-2 px-md-5 py-md-4">
+                  <h5>Past experience</h5>
+
+                  <p class="mb-2">1995 – Present</p>
+
+                  <p class="mb-2">
+                    Managing Director New Technology Engineering Construction
+                    Co.,Ltd.
+                  </p>
+                  <p class="mb-2">
+                    Managing Director Pile Testing Engineering Consultant
+                    Co.,Ltd.
+                  </p>
+                  <p class="mb-2">Managing Director LCM (Thailand) Co.,Ltd.</p>
+                </div>
+                <div class="col-12 border p-2 px-md-5 py-md-4">
+                  <h5>Social experience</h5>
+
+                  <p class="mb-2">
+                    Chairman, Project Committee, The Engineering Institute
+                    Thailand Under H.M. The King’s Patronage (EIT) (1998 –
+                    Present)
+                  </p>
+
+                  <p class="mb-2">
+                    Committee, Prince of Songkla University Alumni Association
+                    (1998 – 2005)
+                  </p>
+
+                  <p class="mb-2">
+                    Member, Public Relation Sub Committee, Council of Engineers
+                    (COE) (2007 – 2009)
+                  </p>
+
+                  <p class="mb-2">
+                    Member, Public Relation Committee, The Engineering Institute
+                    Thailand Under H.M. The King’s Patronage (EIT) (2007 – 2009)
+                  </p>
+
+                  <p class="mb-2">
+                    Executive Board Committee, The Engineering Institute
+                    Thailand Under H.M. The King’s Patronage (EIT) (2008 –
+                    Present)
+                  </p>
+
+                  <p class="mb-2">
+                    Specialist Examiner for The License of Adjunct Engineer,
+                    Council of Engineers (COE) (2009 – Present)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Board Of Director end  -->
+
+        <!-- Footer start  -->
+        <div class="col-12 py-2 text-white bg-dark">
+          <div class="container py-2 ">
+            <div class="row py-4 justify-content-center">
+              <div class="col-12 col-lg-11 d-flex flex-wrap align-items-start">
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3">
+                  <h5 class="text-capitalize">About Company</h5>
+                  <img
+                    class="w-100 pe-0 pe-md-5"
+                    src="https://www.ntec.co.th/wp-content/uploads/2022/04/NTEC-logo-main.png"
+                    alt=""
+                  />
+                  <h6 class="fw-bold" style="line-height: 30px">
+                    NEW TECHNOLOGY ENGINEERING CONSTRUCTION CO.,LTD.
+                  </h6>
+                  <small>
+                    NTEC was established in 1994 in which the prime objective of
+                    the company is to provide our clients with comprehensive and
+                    professional standard of services in construction field.
+                  </small>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                  <h5 class="text-capitalize mb-3 col-12">Company</h5>
+                  <div class="col-6 mb-3 small">Home</div>
+                  <div class="col-6 mb-3 small ps-2">Who We Are</div>
+                  <div class="col-6 mb-3 small">News</div>
+                  <div class="col-6 mb-3 small ps-2">Our Services</div>
+                  <div class="col-6 mb-3 small">Projects</div>
+                  <div class="col-6 mb-3 small ps-2">Projects On Hand</div>
+                  <div class="col-6 mb-3 small">Project Reference</div>
+                  <div class="col-6 mb-3 small ps-2">Contact Us</div>
+                  <div class="col-6 mb-3 small">Privacy Policy</div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                  <h5 class="text-capitalize mb-3 col-12">Head Office</h5>
+                  <div class="d-flex flex-wrap align-items-start">
+                    <div class="mb-3 col-2">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="mb-3 col-10">
+                      <small>
+                        233/105/1 Srinakarin Road , Bangmuang, Mueang, Samut
+                        Prakan, 10270 Thailand
+                      </small>
+                    </div>
+                    <div class="mb-3 col-2">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="mb-3 col-10">
+                      <small>+66(0)-2019-8423</small>
+                    </div>
+                    <div class="mb-3 col-2">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="mb-3 col-10">
+                      <small>ntec99@ntec.co.th</small>
+                    </div>
+                    <div class="mb-3 col-2">
+                      <i class="fa-solid fa-building-circle-check"></i>
+                    </div>
+                    <div class="mb-3 col-10">
+                      <small>+66(0)-2013-9665</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                  <h5 class="text-capitalize mb-3 col-12">Business Hour</h5>
+                  <div class="col-6 small ">Monday-Friday:</div>
+                  <div class="col-6 small  text-end">
+                    8:00 AM to <br />
+                    5:00 PM
+                  </div>
+                  <hr class="col-12 my-3" />
+                  <div class="col-6 small ">Saturday:</div>
+                  <div class="col-6 small  text-end">
+                    8:00 AM to <br />
+                    5:00 PM
+                  </div>
+                  <hr class="col-12 my-3" />
+                  <div class="col-6 small ">Sunday:</div>
+                  <div class="col-6 small mb-3 text-end">Close</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 py-0 bg-white">
+          <div class="container py-1 px-0 px-lg-5">
+            <div class="row py-2 justify-content-center">
+              <div class="col-12 px-0  col-lg-11">
+                <small
+                  >Copyright © 2022 NTEC - New Technology Engineering
+                  Construction</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer end  -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="custom.js"></script>
+    <script></script>
+  </body>
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+               <!-- header start  -->
+               <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img
+                        class="logo"
+                        src="https://www.ntec.co.th/wp-content/uploads/2022/04/NTEC-logo-main.png"
+                        alt=""
+                      />
+                    </a>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="lcm.html"
+                            >LCM</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">NTEC</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="who.html">Who We Are</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="services.html"
+                            >Services</a
+                          >
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Projects
+                          </a>
+                          <ul
+                            class="dropdown-menu"
+                            aria-labelledby="navbarDropdown"
+                          >
+                            <li>
+                              <a class="dropdown-item" href="refrence.html">Project Reference</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="hand.html"
+                                >Projects On Hand</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="carrier.html">Carrers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+              <!-- header end  -->
+            </div>
+          </div>
+        </div>
+        <!-- slider image start  -->
+        <div class="col-12">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active"
+                style="
+                  background-image: url('https://ld-wp73.template-help.com/buildwall/v3/business/wp-content/uploads/revslider/business-slider3.jpg');
+                "
+              >
+                <!-- <img src="" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption">
+                  <h1>LCM (Thailand) Company Limited</h1>
+                  <p>
+                    L.C.M. (Thailand) Company Limited is a company jointly
+                    founded between Thai professional engineers.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('https://ld-wp73.template-help.com/buildwall/v3/business/wp-content/uploads/revslider/business-slider2.jpg');
+                "
+              >
+                <!-- <img src="" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption">
+                  <h1>We Construct Your Success</h1>
+                  <p>Providing All Kinds Of Construction Services</p>
+                </div>
+              </div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url('https://ld-wp73.template-help.com/buildwall/v3/business/wp-content/uploads/revslider/business-slider1.jpg');
+                "
+              >
+                <!-- <img src="" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption ccpt">
+                  <h1 class="pt-0 pt-md-4">We Are Ready To Bring</h1>
+                  <h1>The Most Complex Projects To Life</h1>
+                  <p class="d-none d-md-block">
+                    Our skilled team of engineers, designers and workers will
+                    create a project for your needs and ensure that the result
+                    will become unsurpassed!
+                  </p>
+                  <button
+                    class="btn btn-primary mt-3 text-capitalize"
+                    style="padding: 10px 30px"
+                  >
+                    Our Services &nbsp;<i class="fa-solid fa-angles-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- slider image end  -->
+        <!-- lcm start  -->
+        <div class="col-12 bg-white py-5 border">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 col-lg-11 align-items-center justify-content-between d-flex flex-wrap"
+              >
+                <img
+                  class="col-12 col-md-3 mb-3"
+                  src="https://www.ntec.co.th/wp-content/uploads/2022/03/Logo-LCM-V2.1-300x168.jpg"
+                  alt=""
+                />
+                <div class="col-12 col-md-9 d-flex justify-content-end mb-3">
+                  <div class="">
+                    <h1 class="fw-bold text-success">About LCM</h1>
+                    <h4 class="fw-bold" >LCM (Thailand) Company Limited</h4>
+                    <p class="mb-2" style="line-height: 27px;">
+                      <b>บริษัท แอล ซี เอ็ม (ประเทศไทย) จำกัด</b>
+                      เป็นบริษัทที่ก่อตั้งร่วมระหว่างวิศวกรอาชีพของไทย
+                    </p>
+                    <p class="mb-0" style="line-height: 27px;">
+                      และ Mr. Alex Liew Chung จาก NCT AL NASHI ALEX SDN BHD,
+                      ประเทศมาเลเซีย
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- lcm end  -->
+        <div class="col-12 bg-white py-5 border">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-11">
+                <h2 class="fw-bold text-success mb-4">บริการของทางเรา</h2>
+                <p>1. จำหน่ายเครื่องมือผลิตคอนกรีตมวลเบา LCM</p>
+                <p>2. จำหน่ายน้ำยาผลิตฟองโฟม (Foaming Agent)</p>
+                <p>
+                  3. ให้เช่าเครื่องมือในการผลิตคอนกรีตมวลเบา LCM จำหน่ายใบอนุญาต
+                  (License) พร้อมชุดผลิต LCM Foam Concrete รวมน้ำยาโฟม
+                </p>
+                <p>
+                  4. (Foaming Agent)
+                  และให้การอบรมด้านเทคนิคจนผู้ซื้อใบอนุญาตสามารถผลิต LCM Foam
+                  Concrete ได้
+                </p>
+                <p>
+                  5. รับเหมางานเทพื้นทับหน้า (Topping) ด้วยคอนกรีตมวลเบา LCM
+                </p>
+                <p>6. รับเหมางานก่อสร้างผนังหล่อในที่ด้วยคอนกรีตมวลเบา LCM</p>
+                <p>7. ให้คำปรึกษางานโครงการ (โดยผู้ชำนาญการ)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 bg-success py-5 border">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-11 text-white">
+                <h2 class="fw-bold">LCM information</h2>
+                <h4>
+                  LCM ( Light Weight Construction Methodology )</h4>
+                <p class="mb-0">
+                LCM โฟมคอนกรีต คือ การผลิตคอนกรีตมวลเบา ซึ่ง ทำได้โดยการผสมฟองโฟมชนิดพิเศษลงในส่วนผสม ของปูนทราย (น้ำ + ซีเมนต์ และทราย) LCM Foam Concrete มีลักษณะโครงสร้างภายในเป็นโพรง โดยฟองโฟมทำให้มีช่องอากาศอยู่ภายในจำนวนมาก ดังนั้น ความหนาแน่นจึงน้อยกว่าคอนกรีตโดยทั่วๆ ไป ความหนาแน่นของ LCM Foam Concrete สามารถกำหนดได้จากปริมาณของฟองโฟม ซึ่งปริมาณฟองอากาศที่มีอยู่ภายในจำนวนมากนั้น ทำให้ LCM Foam Concrete นอกจากน้ำหนักเบา ทนทาน แล้วยังมีคุณสมบัติเป็นฉนวนกันความร้อนที่ดี</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- icons group start  -->
+        <div class="col-12 bg-white py-5 border">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-11 d-flex flex-wrap justify-content-center align-items-center">
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-building"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Properties</h5>
+                  <p class="">คุณสมบัติของ LCM Foam Concrete</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-brands fa-bitbucket"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Making Of LCM</h5>
+                  <p class="">การผลิต LCM Foam Concrete</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-window-maximize"></i></i></h1>
+                  <h5 class="text-success my-3 fw-bold">How to</h5>
+                  <p class="">ผลิตภัณฑ์ LCM และการนำไปใช้งาน</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-book-open"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Documents</h5>
+                  <p class="">Concrete Technology by CPAC</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-align-justify"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Cast In Place</h5>
+                  <p class="">LCM Foam Concrete สำหรับงานหล่อในที่</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-square"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Floor Screeding</h5>
+                  <p class="">การเทพื้นทับหน้าโดยใช้ LCM Foam Concrete</p>
+                </div>
+                <div class="col-12 col-md-3 my-3 text-center">
+                  <h1 class="text-success"><i class="fa-solid fa-table-cells"></i></h1>
+                  <h5 class="text-success my-3 fw-bold">Concrete Block</h5>
+                  <p class="">อุตสาหกรรมการผลิตบล็อกคอนกรีตมวลเบา โดยใช้ LCM Foam Concrete</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- icon group end  -->
+           <!-- recent new start  -->
+           <div class="col-12 py-2 border bg-white">
+            <div class="container py-2 ">
+              <div class="row py-4 justify-content-center">
+                <div class="col-12 col-lg-11">
+                  <div class="col-12  text-center mb-4">
+                    <h1>Recent News</h1>
+                  </div>
+                  <div class="col-12 slickcard">
+                    <div class="px-1 px-md-1 px-lg-4">
+                      <div class="card shadow my-2">
+                        <img
+                          src="https://www.ntec.co.th/wp-content/uploads/2022/04/News-3.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            งานแสดงเครื่องจักร
+                            วัสดุ-อุปกรณ์-การบริการก่อสร้างครั้งที่ 3 ConsTech ’07
+                          </p>
+                          <hr />
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <i class="fa-solid fa-calendar-days"></i> 9-27-2024
+                            </div>
+                            <div><i class="fa-solid fa-clock"></i> 09:25 PM</div>
+                          </div>
+                          <hr />
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-1 px-md-1 px-lg-4">
+                      <div class="card shadow my-2">
+                        <img
+                          src="https://www.ntec.co.th/wp-content/uploads/2022/04/News-2.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            งานแสดงเครื่องจักร
+                            วัสดุ-อุปกรณ์-การบริการก่อสร้างครั้งที่ 3 ConsTech ’07
+                          </p>
+                          <hr />
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <i class="fa-solid fa-calendar-days"></i> 9-27-2024
+                            </div>
+                            <div><i class="fa-solid fa-clock"></i> 09:25 PM</div>
+                          </div>
+                          <hr />
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-1 px-md-1 px-lg-4">
+                      <div class="card shadow my-2">
+                        <img
+                          src="https://www.ntec.co.th/wp-content/uploads/2022/03/25-10-2559-500x300.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            งานแสดงเครื่องจักร
+                            วัสดุ-อุปกรณ์-การบริการก่อสร้างครั้งที่ 3 ConsTech ’07
+                          </p>
+                          <hr />
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <i class="fa-solid fa-calendar-days"></i> 9-27-2024
+                            </div>
+                            <div><i class="fa-solid fa-clock"></i> 09:25 PM</div>
+                          </div>
+                          <hr />
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-1 px-md-1 px-lg-4">
+                      <div class="card shadow my-2">
+                        <img
+                          src="https://www.ntec.co.th/wp-content/uploads/2022/03/S__4235563-600x300.jpg"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            งานแสดงเครื่องจักร
+                            วัสดุ-อุปกรณ์-การบริการก่อสร้างครั้งที่ 3 ConsTech ’07
+                          </p>
+                          <hr />
+                          <div class="d-flex justify-content-between">
+                            <div>
+                              <i class="fa-solid fa-calendar-days"></i> 9-27-2024
+                            </div>
+                            <div><i class="fa-solid fa-clock"></i> 09:25 PM</div>
+                          </div>
+                          <hr />
+                          <a href="#" class="btn btn-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- recent new end  -->
+          <!-- project ref start  -->
+          <div class="col-12 bg-white py-5 border">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-11 ">
+                  <div class="col-12  text-center mb-5">
+                    <h1 class="fw-bolder text-success">Project Reference</h1>
+                  </div>
+                  <div class="col-12 variable-width">
+                    <div class="px-2 prjref">
+                      <img class="w-100 " src="https://www.ntec.co.th/wp-content/uploads/2022/03/Site9.jpg" alt="">
+                    </div>
+                    <div class="px-2 prjref">
+                      <img class="w-100 " src="https://www.ntec.co.th/wp-content/uploads/2022/03/Site3.jpg" alt="">
+                    </div>
+                    <div class="px-2 prjref">
+                      <img class="w-100 " src="https://www.ntec.co.th/wp-content/uploads/2022/03/Site5.jpg" alt="">
+                    </div>
+                    <div class="px-2 prjref">
+                      <img class="w-100 " src="https://www.ntec.co.th/wp-content/uploads/2022/03/Site7.jpg" alt="">
+                    </div>
+                  </div>                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project ref end  -->
+          <!-- contact us start  -->
+          <div class="col-12 bg-white py-5 border">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-11 ">
+                  <div class="col-12  text-center mb-5">
+                    <h1 class="fw-bolder text-success">ติดต่อเรา</h1>
+                     <h4>บริษัท แอลซีเอ็ม (ประเทศไทย) จำกัด</h4> 
+                  </div>
+                  <div class="col-12 d-flex flex-wrap justify-content-center align-items-stretch">
+                    <div class="col-12 mb-2 col-md-6 ">
+                      <div class="border h-100 border-success me-0 me-md-3 p-4 p-md-5 shadow">
+                        <h6 class="mb-3"><i class="fa-solid text-success fa-building"></i> &nbsp;
+                          20 ซ.อุดมสุข 53 แขวงหนองบอน เขตประเวศ กทม. 10250</h6>
+                        <h6 class="mb-3"><i class="fa-solid text-success fa-phone"></i> &nbsp;
+                            02-7481398 (10คู่สาย), 02-7481466</h6>
+                            <h6><i class="fa-solid text-success fa-building-circle-check"></i> &nbsp;
+                              02-7481248 .02-7481466</h6>
+                      </div>
+                       
+                          
+                    </div>
+                    <img class="col-12 mb-2 border border-success shadow col-md-6 " src="https://www.ntec.co.th/wp-content/uploads/2022/04/LCM-Maps.gif" alt="">
+                  </div>                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- contact us end  -->
+
+
+
+
+
+          <!-- Footer start  -->
+          <div class="col-12 py-2 text-white bg-dark">
+            <div class="container py-2 ">
+              <div class="row py-4 justify-content-center">
+                <div class="col-12 col-lg-11 d-flex flex-wrap align-items-start">
+                  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3">
+                    <h5 class="text-capitalize">About Company</h5>
+                    <img
+                      class="w-100 pe-0 pe-md-5"
+                      src="https://www.ntec.co.th/wp-content/uploads/2022/04/NTEC-logo-main.png"
+                      alt=""
+                    />
+                    <h6 class="fw-bold" style="line-height: 30px">
+                      NEW TECHNOLOGY ENGINEERING CONSTRUCTION CO.,LTD.
+                    </h6>
+                    <small>
+                      NTEC was established in 1994 in which the prime objective of
+                      the company is to provide our clients with comprehensive and
+                      professional standard of services in construction field.
+                    </small>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                    <h5 class="text-capitalize mb-3 col-12">Company</h5>
+                    <div class="col-6 mb-3 small">Home</div>
+                    <div class="col-6 mb-3 small ps-2">Who We Are</div>
+                    <div class="col-6 mb-3 small">News</div>
+                    <div class="col-6 mb-3 small ps-2">Our Services</div>
+                    <div class="col-6 mb-3 small">Projects</div>
+                    <div class="col-6 mb-3 small ps-2">Projects On Hand</div>
+                    <div class="col-6 mb-3 small">Project Reference</div>
+                    <div class="col-6 mb-3 small ps-2">Contact Us</div>
+                    <div class="col-6 mb-3 small">Privacy Policy</div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                    <h5 class="text-capitalize mb-3 col-12">Head Office</h5>
+                    <div class="d-flex flex-wrap align-items-start">
+                      <div class="mb-3 col-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                      <div class="mb-3 col-10">
+                        <small>
+                          233/105/1 Srinakarin Road , Bangmuang, Mueang, Samut
+                          Prakan, 10270 Thailand
+                        </small>
+                      </div>
+                      <div class="mb-3 col-2">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <div class="mb-3 col-10">
+                        <small>+66(0)-2019-8423</small>
+                      </div>
+                      <div class="mb-3 col-2">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="mb-3 col-10">
+                        <small>ntec99@ntec.co.th</small>
+                      </div>
+                      <div class="mb-3 col-2">
+                        <i class="fa-solid fa-building-circle-check"></i>
+                      </div>
+                      <div class="mb-3 col-10">
+                        <small>+66(0)-2013-9665</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-2 px-0 px-md-3 d-flex flex-wrap">
+                    <h5 class="text-capitalize mb-3 col-12">Business Hour</h5>
+                    <div class="col-6 small ">Monday-Friday:</div>
+                    <div class="col-6 small  text-end">
+                      8:00 AM to <br />
+                      5:00 PM
+                    </div>
+                    <hr class="col-12 my-3" />
+                    <div class="col-6 small ">Saturday:</div>
+                    <div class="col-6 small  text-end">
+                      8:00 AM to <br />
+                      5:00 PM
+                    </div>
+                    <hr class="col-12 my-3" />
+                    <div class="col-6 small ">Sunday:</div>
+                    <div class="col-6 small mb-3 text-end">Close</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-12 py-0 bg-white">
+          <div class="container py-1 px-0 px-lg-5">
+            <div class="row py-2 justify-content-center">
+              <div class="col-12 px-0  col-lg-11">
+                <small
+                  >Copyright © 2022 NTEC - New Technology Engineering
+                  Construction</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer end  -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="custom.js"></script>
+    <script></script>
+  </body>
+</html>
