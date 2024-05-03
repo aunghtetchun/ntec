@@ -177,6 +177,9 @@ video {
 
 /* Media query for tablet devices (between 577px and 992px) */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+    .logo{
+        width: 150px !important;
+    }
 }
 
 /* Media query for mobile devices (up to 576px) */
