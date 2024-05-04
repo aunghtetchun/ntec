@@ -1,3 +1,4 @@
+new WOW().init();
 $(document).ready(function () {
   $('.variable-width').slick({
     dots: true,
